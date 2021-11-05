@@ -1,11 +1,34 @@
-import React from "react";
-import "./style.css";
+import React from 'react';
 
-export default function App() {
+function App() {
   return (
     <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
+      <p>
+        <label>
+          <input type="checkbox" value="" />
+          Write a note
+        </label>
+      </p>
+      <p>
+        <label>
+          <input type="checkbox" value="" />
+          Speak to the client
+        </label>
+      </p>
+      <p>
+        <label>
+          <input type="checkbox" value="" />
+          Call a friend
+        </label>
+      </p>
+      <p>
+        <label>
+          <input type="checkbox" value="" />
+          Play some games
+        </label>
+      </p>
     </div>
   );
 }
+
+export default App;
